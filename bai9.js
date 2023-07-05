@@ -1,7 +1,7 @@
 // Viết chương trình giải phương trình bậc 2: ax^2 + bx + c = 0 (xét tất cả các trường hợp, làm tròn kết quả 2 số thập phân).
-var a = parseFloat(prompt('Nhập a:'));
-var b = parseFloat(prompt('Nhập b:'));
-var c = parseFloat(prompt('Nhập c:'));
+var a = prompt('Nhập a:');
+var b = prompt('Nhập b:');
+var c = prompt('Nhập c:');
 
 var d = b * b - 4 * a * c;
 

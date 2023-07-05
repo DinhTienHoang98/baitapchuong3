@@ -3,12 +3,12 @@ var a = prompt('nhap a');
 var b = prompt('nhap b');
 var x;
 if (a == 0) {
-    if (b ==0) {
+    if (b == 0) {
         console.log('pt vô số nghiệm');
     } else {
         console.log('pt vô nghiệm');
     }
-    } else {
-        x = -b/a;
-        console.log(x.toFixed(2));
-    }
+} else {
+    x = -b / a;
+    console.log(x.toFixed(2));
+}
